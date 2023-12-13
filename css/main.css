@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: grid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 100px;;
+}
+
+input {
+    width: 5%;
+    height: 5vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#increment, #decrement {
+    background-color: grey;
+    border-color: grey;
+    border: 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#increment:hover, #decrement:hover {
+    background-color: white;
+    color: grey;
+}
+
